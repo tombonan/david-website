@@ -1,0 +1,24 @@
+<%= form_for @image, :html => {:multipart => true} do |f| %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+
+  <% if @image.image? %>
+  <% else %>
+	  <p>
+	    <%= f.file_field :image %>
+	  </p>
+  <% end %>
+
+  <p>
+    <%= f.select :category, ['None', 'For Sale', 'Freelance']%>
+  </p>
+
+  <p><%= f.submit "Update"%></p>
+<% end %>

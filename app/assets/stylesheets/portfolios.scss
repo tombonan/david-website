@@ -1,0 +1,130 @@
+// Place all the styles related to the portfolios controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.portfolio-container {
+width: 100%;
+overflow:auto; 
+background-color: #efefef;
+}
+
+.image-block {
+	width: 25%;
+	height: 0;
+    padding-bottom: 16%;
+	float: left;
+	display: block;
+	position: relative;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+.index-text {
+	display: none;
+	width: 70%;
+	height: 60%;
+	padding: 30px 25px 30px 55px;
+	color: #fff;
+	z-index: 20;
+	position:absolute; 
+}
+
+.index-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;		
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.index-divider {
+	margin-top: 12px;
+	width: 80px;
+	height: 3px;
+	background-color: #fff;
+}
+
+.arrow {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background: url(image_path('arrow-right.png'));
+}
+
+.arrow:first-of-type {
+	right: -120px;
+}
+
+@media only screen and (min-width: 900px)  {
+
+	.image-block:after {
+	    position: absolute;
+	    z-index: 1;
+	    background-color: black;
+	    opacity: 0;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	  	height: 100%;
+	    content: '';
+	    transition: all 0.2s;
+	    -webkit-transition: all 0.2s;
+	    z-index: 10;
+	}
+
+	.image-block:hover:after {
+	    opacity: 1;
+	}
+
+	.image-block:hover .index-text {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 900px)  {
+	.index-text {
+		display: none;
+	}
+
+	.image-block {
+		width: 33.3%;
+		height: 0;
+    	padding-bottom: 26%;
+	}
+}
+
+
+/* -- show css -- */
+
+.image-show {
+	width: 100%;
+	height: 698px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.image-show-title {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;		
+	font-size: 2.2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 40px;
+}
+
+.image-show-description {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 19px;
+	line-height: 1.6;
+	width: 64%;
+	margin: 40px auto;
+	color: #444;
+}
+
+/* #efefef; */

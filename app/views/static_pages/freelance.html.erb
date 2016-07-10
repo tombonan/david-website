@@ -1,0 +1,14 @@
+<% provide(:title, 'Freelance Work') %>
+<div class = "portfolio-container">
+<% for art in @freelance do %>
+	<%= link_to (portfolio_path(art)) do %>
+		<div class = "image-block" style="background-image: url('<%= art.image_url(:thumb) %>');">
+			<div class = "index-text">
+				<h1 class = "index-title"><%= art.title %></h1>
+				<div class = "index-divider"></div>
+				<div class = "arrow"></div>
+			</div>
+		</div>
+	<% end %>
+<% end %>
+</div>
