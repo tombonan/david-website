@@ -5,6 +5,7 @@
 			<div class = "index-text">
 				<h1 class = "index-title"><%= art.title %></h1>
 				<div class = "index-divider"></div>
+				<p class = "description-preview"><%= truncate(art.description, length: 80, separator: ' ', :escape => false) %></p>
 				<div class = "arrow"></div>
 			</div>
 		</div>
