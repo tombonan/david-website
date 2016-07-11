@@ -1,0 +1,310 @@
+/* line 4, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.portfolio-container {
+  width: 100%;
+  overflow: auto;
+  background-color: #efefef;
+}
+
+/* line 10, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-block {
+  width: 25%;
+  height: 0;
+  padding-bottom: 16%;
+  float: left;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 21, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-text {
+  display: none;
+  width: 80%;
+  height: 60%;
+  padding: 30px 0px 30px 50px;
+  color: #fff;
+  z-index: 20;
+  position: absolute;
+}
+
+/* line 31, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 39, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-divider {
+  margin-top: 12px;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* line 46, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.description-preview {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* line 54, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.arrow {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background: url("/assets/arrow-right-6f40eedc2f434a7618e9ebd113f79f80b02704bdddec0b19e3431a8e9eb0965e.png");
+}
+
+/* line 64, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.arrow:first-of-type {
+  right: -120px;
+}
+
+@media only screen and (min-width: 900px) {
+  /* line 70, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:after {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    z-index: 10;
+  }
+
+  /* line 85, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:hover:after {
+    opacity: 1;
+  }
+
+  /* line 89, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:hover .index-text {
+    display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 95, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .index-text {
+    display: none;
+  }
+
+  /* line 99, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block {
+    width: 33.3%;
+    height: 0;
+    padding-bottom: 26%;
+  }
+}
+/* -- show css -- */
+/* line 109, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show {
+  width: 100%;
+  height: 698px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 117, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show-title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+/* line 127, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show-description {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.6;
+  width: 64%;
+  margin: 40px auto;
+  color: #444;
+}
+
+/* #efefef; */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+div{
+   margin: 0px;
+   padding: 0px;
+}
+
+table{
+   margin: 0px;
+   padding: 0px;
+}
+h1, h2, h3, h4, h5, p, ul, a {
+   margin: 0px;
+   padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* -- header css -- */
+
+.header-container {
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.home-text {
+	width: 280px;
+	float: left;
+}
+
+#home-text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #444;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 80px;
+	letter-spacing: 1px;
+}
+
+#home-text a {
+	transition: color 0.2s;
+}
+
+#home-text a:hover {
+	color: #2E94B9;
+}
+
+.header-nav {
+	float: right;
+	height: 80px;
+	width: 600px;
+}
+
+.header-nav p{
+	line-height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.header-nav p a:hover {
+	color: #267b9a;
+}
+
+.icon {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	text-indent: 105%;
+	white-space: nowrap;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.instagram {
+	background: url(image_path('instagram.png'));
+}
+
+.active-nav{
+	color: #267b9a;
+	border-bottom: 1px dotted #267b9a;
+}
+
+
+/* -- footer css -- */
+.footer-container {
+	width: 100%;
+	height: 200px;
+	margin-top: 120px;
+}
+
+.footer-divider {
+	height: 1px;
+	background-color: #D8D8D8;
+	width: 560px;
+	margin: 0 auto;
+}
+
+.footer-text {
+	text-align: center;
+	margin-top: -5px;
+}
+
+.footer-list {
+	color: #737373;
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -16px;
+	letter-spacing: 1px;
+}
