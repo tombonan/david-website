@@ -80,7 +80,7 @@ a {
 }
 
 #home-text a {
-	transition: color 0.2s;
+	transition: color 0.3s;
 }
 
 #home-text a:hover {
@@ -89,8 +89,8 @@ a {
 
 .header-nav {
 	float: right;
+	margin-right: 60px;
 	height: 80px;
-	width: 600px;
 }
 
 .header-nav p{
@@ -102,12 +102,30 @@ a {
 	font-size: 14px;
 	color: #444;
 	float: left;
+}
+
+#nav-links {
 	margin-left: 25px;
 	margin-right: 25px;
 }
 
+#icons {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -2px;
+}
+
+.header-nav p a {
+transition: color 0.3s;
+}
+
 .header-nav p a:hover {
 	color: #267b9a;
+}
+
+.header-nav h5{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .icon {
@@ -116,19 +134,87 @@ a {
 	overflow: hidden;
 	text-indent: 105%;
 	white-space: nowrap;
-	width: 16px;
-	height: 16px;
+	width: 24px;
+	height: 24px;
 	vertical-align: middle;
+	transition: all 0.3s;
 }
 
-.instagram {
-	background: url(image_path('instagram.png'));
+.icon:hover {
+	opacity: 0.6;
 }
 
 .active-nav{
 	color: #267b9a;
 	border-bottom: 1px dotted #267b9a;
 }
+
+.dropdown-menu {
+	display: none;
+	float: right;
+}
+
+.dropdown-icon {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	text-indent: 105%;
+	white-space: nowrap;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.dropdown-menu p {
+	float: left;
+	margin-right: 3px;
+	margin-left: 3px;
+	line-height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+}
+
+@media only screen and (max-width: 1007px)  {
+	#icons {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 860px)  {
+	#nav-links {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 800px)  {
+	#nav-links {
+		display: none;
+	}
+
+	.dropdown-menu {
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 470px)  {
+	.header-nav {
+		margin-right: 20px;
+	}
+
+	.home-text {
+		width: 180px;
+		float: left;
+		margin-left: 20px;
+	}
+}
+
 
 
 /* -- footer css -- */
@@ -160,4 +246,74 @@ a {
 	text-align: center;
 	margin-top: -16px;
 	letter-spacing: 1px;
+}
+
+/* -- form css -- */
+.blog-form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.blog-form-container p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.blog-form-container label {
+    display:inline-block;
+    float:left;
+}
+
+.blog-form-container input {
+    height:30px;
+    width:400px;
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.blog-form-container textarea {width:700px; height: 240px;}
+.blog-form-container button {margin-left:156px;}
+
+.blog-form-container input:focus, .blog-form-container textarea:focus {
+    outline: none;
+}
+
+.delete-image p {
+	width: 120px;
+	height: 30px;
+	border: 1px solid #444;
+	background-color: #444;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+  	font-weight: 400;
+  	transition: all 0.3s;
+  	float: right;
+  	margin-right: 380px;
+  	margin-top: -45px;
+}
+
+.delete-image p:hover {
+	background-color: #fff;
+	color: #444;
+}
+
+#validation-error-message {
+  width: 40%;
+  text-align: center;
+  font-size: 1.4em;
+  margin: 0 auto;
+  color: #D8000C;
+  background-color: #FFBABA;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  border: 1px solid;
+  padding: 15px 20px 15px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

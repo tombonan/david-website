@@ -1,1 +1,7 @@
 <%= render partial: 'form' %>
+
+<%= link_to(portfolio_path(@image) , 
+          method: :delete , 
+       data: {confirm: "Are you sure you want to delete this image?"}, :class => "delete-image") do %>
+       <p>Delete Image</p>
+<% end %>

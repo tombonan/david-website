@@ -1,3 +1,4 @@
+<div class = "blog-form-container">
 <%= form_for @image, :html => {:multipart => true} do |f| %>
   <p>
     <%= f.label :title %><br />
@@ -17,8 +18,10 @@
   <% end %>
 
   <p>
+    <%= f.label :category %><br />
     <%= f.select :category, ['None', 'For Sale', 'Freelance']%>
   </p>
 
   <p><%= f.submit "Update"%></p>
 <% end %>
+</div>
