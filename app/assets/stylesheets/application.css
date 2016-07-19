@@ -109,7 +109,7 @@ a {
 	margin-right: 25px;
 }
 
-#icons {
+#icons, #footer-icon {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: -2px;
@@ -227,7 +227,7 @@ transition: color 0.3s;
 .footer-divider {
 	height: 1px;
 	background-color: #D8D8D8;
-	width: 560px;
+	width: 660px;
 	margin: 0 auto;
 }
 
@@ -247,6 +247,16 @@ transition: color 0.3s;
 	margin-top: -16px;
 	letter-spacing: 1px;
 }
+
+.footer-social {
+	width: 140px;
+	margin: 18px auto;
+}
+
+.footer-social p {
+	float: left;
+}
+
 
 /* -- form css -- */
 .blog-form-container {

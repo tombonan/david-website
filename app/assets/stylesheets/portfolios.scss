@@ -99,7 +99,15 @@ background-color: #efefef;
 	.image-block {
 		width: 33.3%;
 		height: 0;
-    	padding-bottom: 26%;
+    	padding-bottom: 22%;
+	}
+}
+
+@media only screen and (max-width: 550px)  {
+	.image-block {
+		width: 50%;
+		height: 0;
+    	padding-bottom: 35%;
 	}
 }
 
@@ -134,5 +142,35 @@ background-color: #efefef;
 	margin: 40px auto;
 	color: #444;
 }
+
+@media only screen and (max-width: 1000px)  {
+	.image-show {
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 800px)  {
+	.image-show-description {
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 635px)  {
+	.image-show {
+		height: 300px;
+	}
+
+	.image-show-description {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 420px)  {
+	.image-show {
+		height: 220px;
+	}
+}
+
 
 /* #efefef; */
