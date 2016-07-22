@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160717180844) do
+ActiveRecord::Schema.define(version: 20160722032058) do
 
   create_table "authors", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20160717180844) do
     t.text     "description"
     t.string   "category"
     t.string   "slug"
+    t.string   "price"
   end
 
   add_index "portfolios", ["slug"], name: "index_portfolios_on_slug"

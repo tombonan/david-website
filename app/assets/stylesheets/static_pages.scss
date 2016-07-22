@@ -15,6 +15,17 @@
 	background: url(image_path('about-background.jpg')) no-repeat center center;
 }
 
+.about-credit {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #68696e;
+	margin-top: 6px;
+	float: right;
+	margin-right: 120px;
+	font-size: 12px;
+}
+
 .about-text {
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
