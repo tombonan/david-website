@@ -250,7 +250,16 @@ transition: color 0.3s;
 		float: left;
 		margin-left: 20px;
 	}
+
+	.side-menu ul {
+		margin-right: 20px;
+	}
+
+	.side-menu {
+		width: 190px;
+	}
 }
+
 
 
 
@@ -266,6 +275,12 @@ transition: color 0.3s;
 	background-color: #D8D8D8;
 	width: 660px;
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 660px)  {
+	.footer-divider {
+		width: 100%;
+	}
 }
 
 .footer-text {
