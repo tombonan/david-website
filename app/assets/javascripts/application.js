@@ -15,9 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function() {  
-	  $('.dropdown-menu').click(function() {
+
+var loaded = function(){
+	$('.dropdown-menu').click(function() {
 	    $('.side-menu').toggleClass('show');
 	    
 	  });
-});
+}
+$(document).on("page:load ready", loaded);

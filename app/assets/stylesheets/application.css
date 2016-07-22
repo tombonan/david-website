@@ -186,10 +186,11 @@ transition: color 0.3s;
 	right: 0;
 	position: absolute;
 	height: 200px;
-	border-left: 1px solid #444;
-	border-bottom: 1px solid #444;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	background-color: #fff;
 	display: none;
+	z-index: 40;
 }
 
 .side-menu ul {
