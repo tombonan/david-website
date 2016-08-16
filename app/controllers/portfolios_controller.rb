@@ -1,6 +1,6 @@
 class PortfoliosController < ApplicationController
 	def index
-		@images = Portfolio.all
+		@images = Portfolio.all.order("created_at DESC")
 	end
 	
 	def new
@@ -42,6 +42,6 @@ class PortfoliosController < ApplicationController
 	private
 
 	def image_params
-		params.require(:portfolio).permit(:title, :image, :description, :category, :price)
+		params.require(:portfolio).permit(:title, :image, :description, :category, :price, :medium, :dimensions)
 	end
 end

@@ -2,6 +2,10 @@
 <div class = "image-show" style="background-image: url('<%= @image.image_url %>');">
 </div>
 <h2 class = "image-show-title"><%= @image.title %></h2>
+<% if @image.medium? && @image.dimensions? %>
+	<h5 class = "dimensions"><%= @image.dimensions %> | <span id = "medium"><%= @image.medium %></span></h5>
+<% end %>
+
 <% if @image.price? %>
 	<h5 class = "image-price">$<%= @image.price %></h5>
 <% end %>
