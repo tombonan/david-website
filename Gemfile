@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -28,6 +28,7 @@ gem "figaro"
 gem "fog"
 gem 'net-ssh'
 gem "devise"
+gem 'ckeditor', '4.1.3'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt'

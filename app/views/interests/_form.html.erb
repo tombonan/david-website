@@ -1,0 +1,16 @@
+<div class = "blog-form-container">
+<%= form_for @interest do |i| %>
+    <p>
+    <%= i.label :topics %><br />
+    <%= i.text_area :topics, :class => 'ckeditor'  %>
+  </p>
+
+  <p>
+    <%= i.label :positions %><br />
+    <%= i.text_area :positions, :class => 'ckeditor'  %>
+  </p>
+
+  <p><%= i.submit "Update"%></p>
+
+<% end %>
+</div>

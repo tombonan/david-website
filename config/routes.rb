@@ -2,7 +2,10 @@ Rails.application.routes.draw do
   root 'portfolios#index'
   scope do
     resources :portfolios, path: 'portfolio'
+    resources :interests, path: 'research'
   end
+
+
 
   # static pages routes
   get 'about' => 'static_pages#about'
