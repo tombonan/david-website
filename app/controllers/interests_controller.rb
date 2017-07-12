@@ -1,6 +1,8 @@
 class InterestsController < ApplicationController
 	def index
-		@interests = Interest.all
+		@resume = Resume.last
+		@resumes = Resume.all
+		@interest = Interest.last
 	end
 
 	def new

@@ -1,0 +1,11 @@
+<div class = "blog-form-container">
+	<%= form_for @resume, html: { multipart: true } do |f| %>
+	<% if @resume.attachment? %>
+		
+	<% else %>
+    	<%= f.label :attachment %> <br>
+    	<%= f.file_field :attachment %>
+    	<%= f.submit "Update"%>
+   	<% end %>
+  <% end %>
+</div>

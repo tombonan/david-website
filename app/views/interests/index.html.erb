@@ -1,1 +1,23 @@
 <% provide(:title, 'Research') %>
+
+<h1 class = 'research-title'>Research</h1>
+
+<% if @resumes.count > 0 %> <!-- if there is a resume uploaded -->
+
+<%= link_to (@resume.attachment.url) do %>
+		<%= image_tag(("cv-icon.png"), :class => "cv-icon") %>
+		<i><p class = 'dimensions' id = 'medium'>Curriculum Vitae</p></i>
+<% end %>
+
+<% else %>
+<% end %>
+
+<div class = "image-show-description">
+	<p id = "research-headings">Interests</p>
+	<p><%= @interest.topics.html_safe %></p>
+</div>
+
+<div class = "image-show-description">
+	<p id = "research-headings">Positions</p>
+	<p><%= @interest.positions.html_safe %></p>
+</div>

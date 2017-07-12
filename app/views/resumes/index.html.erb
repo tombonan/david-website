@@ -1,0 +1,14 @@
+<% provide(:title, 'CV') %>
+
+<h1 class = 'research-title'>CV Upload</h1>
+
+<% if @resumes.count > 0 %> <!-- if there is a resume -->
+	<div class = "image-show-description">
+		<%= link_to 'Delete CV',  resume_path(@resume), id: "cv-link", method: :delete, data: { confirm: 'Are you sure you want to delete this CV?' } %>
+	</div>
+<% else %>
+	<div class = "image-show-description">
+		<%= link_to 'Add CV', new_resume_path, id: "cv-link" %>
+	</div>
+	
+<% end %> 
