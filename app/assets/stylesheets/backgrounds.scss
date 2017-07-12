@@ -1,0 +1,53 @@
+// Place all the styles related to the Backgrounds controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.about-image-container {
+	width: 718px;
+	margin: 0;
+	display: inline-block;
+
+}
+
+.about-image {
+	width: 718px;
+	height: 884px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background: url(image_path('about-image.jpg')) no-repeat center center;
+}
+
+.about-text-container {
+	width: 700px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.background-description {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.6;
+	width: 90%;
+	color: #444;
+	margin-left: 40px;
+}
+
+.background-description li {
+	list-style-type: none;
+	margin-left: 30px;
+}
+
+.background-description p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.background-description p a {
+	color: #2E94B9;
+	transition: all 0.3s;
+}
+
+.background-description p a:hover {
+	color: #444;
+}

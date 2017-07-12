@@ -43,16 +43,22 @@
 	transition: all 0.2s;
 }
 
-.image-show-description li {
+.research-description li {
 	list-style-type: none;
+	margin-left: 30px;
 }
 
-.image-show-description p a {
+.research-description p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.research-description p a {
 	color: #2E94B9;
 	transition: all 0.3s;
 }
 
-.image-show-description p a:hover {
+.research-description p a:hover {
 	color: #444;
 }
 
@@ -60,9 +66,20 @@
 #research-headings {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;		
-	font-size: 1.4em;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-bottom: 10px;
+}
+
+.research-description {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.6;
+	width: 64%;
+	margin-top: 40px;
+	color: #444;
+	margin-left: 240px;
 }

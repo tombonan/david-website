@@ -12,6 +12,32 @@
 <% else %>
 <% end %>
 
+
+<div class = "research-description">
+	<p id = "research-headings">Interests</p>
+	<p><%= @interest.topics.html_safe %></p>
+</div>
+
+<div class = "research-description">
+	<p id = "research-headings">Positions</p>
+	<p><%= @interest.positions.html_safe %></p>
+</div>
+
+<div class = "research-description">
+	<p id = "research-headings">External Resources</p>
+	<% for doc in @resources do %>
+		<p><%= doc.title %> — <%= link_to "Link", doc.document.url, target: "_blank" %></p>
+	<% end %>
+</div>
+
+
+
+
+
+
+
+
+<% if false %>
 <div class = "image-show-description">
 	<p id = "research-headings">Interests</p>
 	<p><%= @interest.topics.html_safe %></p>
@@ -21,3 +47,5 @@
 	<p id = "research-headings">Positions</p>
 	<p><%= @interest.positions.html_safe %></p>
 </div>
+
+<% end %>

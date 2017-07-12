@@ -1,4 +1,5 @@
 <% provide(:title, 'Freelance Work') %>
+<%= render partial: 'layouts/artheader' %>
 <div class = "portfolio-container">
 <% for art in @freelance do %>
 	<%= link_to (portfolio_path(art)) do %>

@@ -5,12 +5,15 @@ Rails.application.routes.draw do
     resources :portfolios, path: 'portfolio'
     resources :interests, path: 'research'
     resources :resumes, path: 'cv'
+    resources :backgrounds, path: 'about'
   end
 
+  resources :resources
 
 
   # static pages routes
-  get 'about' => 'static_pages#about'
+  get 'oldabout' => 'static_pages#about'
+  get 'edit' => 'static_pages#edit'
   get 'home' => 'static_pages#home'
   get 'freelance' => 'static_pages#freelance'
   get 'shop' => 'static_pages#shop'

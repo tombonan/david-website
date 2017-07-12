@@ -1,4 +1,5 @@
 <% provide(:title, 'Shop') %>
+<%= render partial: 'layouts/artheader' %>
 <div class = "portfolio-container">
 <% for art in @sales do %>
 	<%= link_to (portfolio_path(art)) do %>

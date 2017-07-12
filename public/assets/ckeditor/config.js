@@ -34,6 +34,11 @@ CKEDITOR.editorConfig = function( config )
 
   config.allowedContent = true;
 
+
+
+  //Default Font Size
+  CKEDITOR.config.fontSize_defaultLabel = '19px';
+
   // Rails CSRF token
   config.filebrowserParams = function(){
     var csrf_token, csrf_param, meta,

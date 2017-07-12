@@ -1,0 +1,15 @@
+<div class = "blog-form-container">
+	<%= form_for @resource, html: { multipart: true } do |r| %>
+	<% if @resource.document? %>
+		
+	<% else %>
+		<%= r.label :title %><br>
+    	<%= r.text_field :title %>
+    	<br>
+    	<br>
+    	<%= r.label :document %> <br>
+    	<%= r.file_field :document %>
+    	<%= r.submit "Update"%>
+   	<% end %>
+  <% end %>
+</div>

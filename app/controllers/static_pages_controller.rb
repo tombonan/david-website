@@ -6,5 +6,12 @@ class StaticPagesController < ApplicationController
 	def freelance
 		@freelance = Portfolio.where(:category => 'Freelance')
 	end
+
+	def edit
+		@interest = Interest.last
+		@interests = Interest.all
+		@background = Background.last
+		@backgrounds = Background.all
+	end
 end
 

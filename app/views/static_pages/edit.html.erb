@@ -1,0 +1,38 @@
+<div class = "research-description">
+	<p id = "research-headings">Add/Delete CV</p>
+	<p><%= link_to "Link", resumes_path %></p>
+</div>
+
+<div class = "research-description">
+	<p id = "research-headings">Add Artwork</p>
+	<p><%= link_to "Link", new_portfolio_path %></p>
+</div>
+
+<% if @interests.count > 0 %> <!-- if research exits -->
+<div class = "research-description">
+	<p id = "research-headings">Add/Edit Science Section</p>
+	<p><%= link_to "Link", edit_interest_path(@interest) %></p>
+</div>
+<% else %>
+<div class = "research-description">
+	<p id = "research-headings">Add/Edit Science Section</p>
+	<p><%= link_to "Link", new_interest_path %></p>
+</div>
+<% end %>
+
+<% if @backgrounds.count > 0 %> <!-- if background exits -->
+<div class = "research-description">
+	<p id = "research-headings">Add/Edit About Section</p>
+	<p><%= link_to "Link", edit_background_path(@background) %></p>
+</div>
+<% else %>
+<div class = "research-description">
+	<p id = "research-headings">Add/Edit About Section</p>
+	<p><%= link_to "Link", new_background_path %></p>
+</div>
+<% end %>
+
+<div class = "research-description">
+	<p id = "research-headings">Add External Document</p>
+	<p><%= link_to "Link", new_resource_path %></p>
+</div>

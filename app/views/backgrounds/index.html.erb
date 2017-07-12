@@ -1,0 +1,19 @@
+<% provide(:title, 'About') %>
+<div class = "about-image-container">
+	<div class = "about-image">
+		
+	</div>
+</div>
+
+<div class = "about-text-container">
+	<div class = "background-description">
+		<p id = "research-headings">About</p>
+		<p><%= @background.about.html_safe %></p>
+	</div>
+
+	<div class = "background-description">
+		<p id = "research-headings">Contact</p>
+		<p><%= @background.contact.html_safe %></p>
+	</div>
+
+</div>
