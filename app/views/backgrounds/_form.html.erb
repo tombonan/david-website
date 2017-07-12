@@ -2,12 +2,12 @@
 <%= form_for @background do |b| %>
     <p>
     <%= b.label :About %><br />
-    <%= b.text_area :about, :class => 'ckeditor'  %>
+    <div data-no-turbolink><%= b.text_area :about, :class => 'ckeditor'  %></div>
   </p>
 
   <p>
     <%= b.label :Contact %><br />
-    <%= b.text_area :contact, :class => 'ckeditor'  %>
+    <div data-no-turbolink><%= b.text_area :contact, :class => 'ckeditor'  %></div>
   </p>
 
   <p><%= b.submit "Update"%></p>

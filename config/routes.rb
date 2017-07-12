@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'portfolios#index'
+  root 'static_pages#home'
   scope do
     resources :portfolios, path: 'portfolio'
     resources :interests, path: 'research'
