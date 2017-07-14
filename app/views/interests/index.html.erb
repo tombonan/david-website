@@ -24,9 +24,48 @@
 </div>
 
 <div class = "research-description">
-	<p id = "research-headings">External Resources</p>
-	<% for doc in @resources do %>
-		<p><%= doc.title %> — <%= link_to "Link", doc.document.url, target: "_blank" %></p>
+	<p id = "research-headings">Research and Outreach</p>
+
+	<p id = "research-headings-small">Education</p>
+	<% for doc in @education do %>
+		<p><%= doc.title %> — 
+			<% if doc.document? %> 
+				<%= link_to "Link", doc.document.url, target: "_blank" %>
+			<% else %>
+				<%= link_to "Link", doc.link, target: "_blank" %>
+			<% end %>
+		</p>
+		<p id = "outreach-description">
+			<%= doc.description %>
+		</p>
+	<% end %>
+
+	<p id = "research-headings-small">Interviews</p>
+	<% for doc in @interviews do %>
+		<p><%= doc.title %> — 
+			<% if doc.document? %> 
+				<%= link_to "Link", doc.document.url, target: "_blank" %>
+			<% else %>
+				<%= link_to "Link", doc.link, target: "_blank" %>
+			<% end %>
+		</p>
+		<p id = "outreach-description">
+			<%= doc.description %>
+		</p>
+	<% end %>
+
+	<p id = "research-headings-small">Media</p>
+	<% for doc in @media do %>
+		<p><%= doc.title %> — 
+			<% if doc.document? %> 
+				<%= link_to "Link", doc.document.url, target: "_blank" %>
+			<% else %>
+				<%= link_to "Link", doc.link, target: "_blank" %>
+			<% end %>
+		</p>
+		<p id = "outreach-description">
+			<%= doc.description %>
+		</p>
 	<% end %>
 </div>
 

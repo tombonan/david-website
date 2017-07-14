@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   # static pages routes
   get 'oldabout' => 'static_pages#about'
   get 'edit' => 'static_pages#edit'
+  get 'editresources' => 'static_pages#editresources'
   get 'home' => 'static_pages#home'
   get 'freelance' => 'static_pages#freelance'
   get 'shop' => 'static_pages#shop'

@@ -3,7 +3,10 @@ class InterestsController < ApplicationController
 		@resume = Resume.first
 		@resumes = Resume.all
 		@interest = Interest.first
-		@resources = Resource.all
+		
+		@education = Resource.where(:category => 'Education')
+		@interviews = Resource.where(:category => 'Interviews')
+		@media = Resource.where(:category => 'Media')
 	end
 
 	def new

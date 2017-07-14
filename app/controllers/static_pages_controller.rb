@@ -13,5 +13,9 @@ class StaticPagesController < ApplicationController
 		@background = Background.last
 		@backgrounds = Background.all
 	end
+
+	def editresources
+		@resources = Resource.all
+	end
 end
 

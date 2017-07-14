@@ -1,15 +1,38 @@
 <div class = "blog-form-container">
 	<%= form_for @resource, html: { multipart: true } do |r| %>
-	<% if @resource.document? %>
+	
 		
-	<% else %>
-		<%= r.label :title %><br>
+	
+      <p>
+		  <%= r.label :title %><br>
     	<%= r.text_field :title %>
-    	<br>
-    	<br>
-    	<%= r.label :document %> <br>
-    	<%= r.file_field :document %>
-    	<%= r.submit "Update"%>
-   	<% end %>
+      </p>
+    	
+      <p>
+        <%= r.label :category %><br />
+        <%= r.select :category, ['Education', 'Interviews', 'Media']%>
+      </p>
+
+      <p>
+      <%= r.label :description %><br>
+      <%= r.text_area :description %>
+      </p>
+
+      <p>
+      <%= r.label :link %><br>
+      <%= r.text_field :link %>
+      </p>
+    	
+      <% if @resource.document? %>
+      
+      <% else %>
+      <p>
+         <%= r.file_field :document %>
+      </p>
+      <% end %>
+
+      <p>
+    	   <%= r.submit "Update"%>
+      </p>
   <% end %>
 </div>

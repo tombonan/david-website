@@ -11,28 +11,28 @@
 <% if @interests.count > 0 %> <!-- if research exits -->
 <div class = "research-description">
 	<p id = "research-headings">Add/Edit Science Section</p>
-	<p><%= link_to "Link", edit_interest_path(@interest) %></p>
+	<p><%= link_to "Link", edit_interest_path(@interest), data: { 'no-turbolink'=>true}  %></p>
 </div>
 <% else %>
 <div class = "research-description">
 	<p id = "research-headings">Add/Edit Science Section</p>
-	<p><%= link_to "Link", new_interest_path %></p>
+	<p><%= link_to "Link", new_interest_path, data: { 'no-turbolink'=>true}  %></p>
 </div>
 <% end %>
 
 <% if @backgrounds.count > 0 %> <!-- if background exits -->
 <div class = "research-description">
 	<p id = "research-headings">Add/Edit About Section</p>
-	<p><%= link_to "Link", edit_background_path(@background) %></p>
+	<p><%= link_to "Link", edit_background_path(@background), data: { 'no-turbolink'=>true}  %></p>
 </div>
 <% else %>
 <div class = "research-description">
 	<p id = "research-headings">Add/Edit About Section</p>
-	<p><%= link_to "Link", new_background_path %></p>
+	<p><%= link_to "Link", new_background_path, data: { 'no-turbolink'=>true}  %></p>
 </div>
 <% end %>
 
 <div class = "research-description">
-	<p id = "research-headings">Add External Document</p>
-	<p><%= link_to "Link", new_resource_path %></p>
+	<p id = "research-headings">Add/Edit Outreach Document</p>
+	<p><%= link_to "Link", editresources_path %></p>
 </div>

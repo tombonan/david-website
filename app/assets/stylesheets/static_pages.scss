@@ -18,6 +18,12 @@
 	background: url(image_path('home-background.jpg')) no-repeat center center;
 }
 
+@media only screen and (max-width: 1250px)  {
+	.home-container {
+		background: url(image_path('mobile-home-background.jpg')) no-repeat center center;
+	}
+}
+
 
 /* -- About Page --*/
 .about-container {

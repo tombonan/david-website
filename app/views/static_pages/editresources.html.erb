@@ -1,0 +1,11 @@
+<div class = "research-description">
+	<p id = "research-headings">Add Resource</p>
+	<p><%= link_to "New", new_resource_path %></p>
+</div>
+
+<div class = "research-description">
+	<p id = "research-headings">Edit/Delete Resource</p>
+	<% for doc in @resources do %>
+		<p><%= doc.title %> — <%= link_to "Edit", edit_resource_path(doc) %> / <%= link_to 'Delete',  resource_path(doc), method: :delete, data: { confirm: 'Are you sure you want to delete this resource?' } %></p>
+	<% end %>
+</div>
