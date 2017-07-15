@@ -77,7 +77,7 @@
 #research-headings-small {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;		
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 40px;
@@ -93,6 +93,20 @@
 	margin-top: 40px;
 	color: #444;
 	margin-left: 240px;
+	font-size: 14px;
+}
+
+#doc-title {
+	font-size: 16px;
+	display: inline;
+}
+
+#doc-link {
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;	
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 #outreach-description {
