@@ -325,8 +325,9 @@ transition: color 0.3s;
 }
 
 .footer-social {
-	width: 140px;
 	margin: 18px auto;
+	width: 16px;
+	background-color: grey;
 }
 
 .footer-social p {
