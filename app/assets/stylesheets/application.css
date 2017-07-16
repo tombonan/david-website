@@ -326,12 +326,11 @@ transition: color 0.3s;
 
 .footer-social {
 	margin: 18px auto;
-	width: 16px;
-	background-color: grey;
+	width: 24px;
 }
 
-.footer-social p {
-	float: left;
+#footer-icon {
+	margin: 0 auto;
 }
 
 .copyright {
