@@ -27,8 +27,8 @@
 	<p id = "research-headings">Outreach</p>
 
 	<p id = "research-headings-small">Education</p>
+	<% k, i, j = 0 %>
 	<% for doc in @education do %>
-	<% j = 0 %>
 	<% j += 1 %>
 		<p id = "doc-title">[<%= j %>] <%= doc.title%></p> <p id = "doc-link"> — 
 			<% if doc.document? %> 
@@ -44,7 +44,6 @@
 
 	<p id = "research-headings-small">Interviews</p>
 	<% for doc in @interviews do %>
-	<% i = 0 %>
 	<% i += 1 %>
 		<p id = "doc-title">[<%= i %>] <%= doc.title%></p> <p id = "doc-link"> — 
 			<% if doc.document? %> 
@@ -60,7 +59,6 @@
 
 	<p id = "research-headings-small">Media</p>
 	<% for doc in @media do %>
-	<% k = 0 %>
 	<% k += 1 %>
 		<p id = "doc-title">[<%= k %>] <%= doc.title%></p> <p id = "doc-link">— 
 			<% if doc.document? %> 
