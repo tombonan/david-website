@@ -27,7 +27,9 @@
 	<p id = "research-headings">Outreach</p>
 
 	<p id = "research-headings-small">Education</p>
-	<% k, i, j = 0 %>
+	<% k = 0 %>
+	<% i = 0 %>
+	<% j = 0 %>
 	<% for doc in @education do %>
 	<% j += 1 %>
 		<p id = "doc-title">[<%= j %>] <%= doc.title%></p> <p id = "doc-link"> — 
