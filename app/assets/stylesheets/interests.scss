@@ -65,13 +65,16 @@
 
 
 #research-headings {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;		
+	font-family: 'Raleway', sans-serif;	
 	font-size: 1.6em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 80px;
 	margin-bottom: 10px;
+}
+
+#research-headings-small:first-child {
+	margin-top: 10px;
 }
 
 #research-headings-small {
@@ -99,6 +102,7 @@
 #doc-title {
 	font-size: 16px;
 	display: inline;
+	font-style: b
 }
 
 #doc-link {

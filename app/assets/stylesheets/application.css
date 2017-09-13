@@ -220,6 +220,18 @@ transition: color 0.3s;
 	height: 40px;
 	width: 100%;
 	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.artheader-descriptions {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.artheader-descriptions p {
+	text-align: center;
+	font-weight: 500;
 }
 
 .artheader-nav {
@@ -228,10 +240,14 @@ transition: color 0.3s;
 }
 
 .artheader-nav p {
+	font-weight: 300;
+}
+
+
+.artheader-nav p, .artheader-descriptions p {
 	display: inline-block;
 	line-height: 40px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
