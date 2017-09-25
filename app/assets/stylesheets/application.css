@@ -185,7 +185,7 @@ transition: color 0.3s;
 	top: 80px;
 	right: 0;
 	position: absolute;
-	height: 200px;
+	height: 260px;
 	border-left: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 	background-color: #fff;
@@ -202,7 +202,7 @@ transition: color 0.3s;
 }
 
 .side-menu ul li {
-	padding-top: 25px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
@@ -210,6 +210,12 @@ transition: color 0.3s;
 	letter-spacing: 1px;
 	font-size: 14px;
 	color: #444;
+}
+
+#sub-link {
+	font-size: 12px;
+	padding-top: 6px;
+	padding-bottom: 12px;
 }
 
 .show {

@@ -1,6 +1,6 @@
 class PortfoliosController < ApplicationController
 	def index
-		@images = Portfolio.all.order("created_at DESC")
+		@images = Portfolio.all
 	end
 	
 	def new
