@@ -196,14 +196,14 @@ transition: color 0.3s;
 .side-menu ul {
 	float: right;
 	margin-top: 0px;
-	text-align: right;
+	text-align: left;
 	list-style-type: none;
-	margin-right: 60px;
+	margin-right: 40px;
 }
 
 .side-menu ul li {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 16px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -216,6 +216,7 @@ transition: color 0.3s;
 	font-size: 12px;
 	padding-top: 6px;
 	padding-bottom: 12px;
+	margin-left: 20px;
 }
 
 .show {

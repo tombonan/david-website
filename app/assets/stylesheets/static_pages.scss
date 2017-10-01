@@ -38,6 +38,12 @@
 	}
 }
 
+@media only screen and (max-width: 400px)  {
+	.home-background {
+		background: url(image_path('mobile-home-background-300.jpg')) no-repeat center center;
+	}
+}
+
 /* -- About Page --*/
 .about-container {
 	width: 100%;

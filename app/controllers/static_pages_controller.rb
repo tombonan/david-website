@@ -1,10 +1,10 @@
 class StaticPagesController < ApplicationController
 	def shop
-		@sales = Portfolio.where(:category => 'For Sale')
+		@sales = Portfolio.where(:category => 'For Sale').order(created_at: :desc)
 	end
 
 	def freelance
-		@freelance = Portfolio.where(:category => 'Freelance')
+		@freelance = Portfolio.where(:category => 'Freelance').order(created_at: :desc)
 	end
 
 	def edit
