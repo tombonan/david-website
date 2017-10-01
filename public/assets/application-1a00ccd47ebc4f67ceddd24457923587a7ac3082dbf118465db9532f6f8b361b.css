@@ -1,0 +1,1063 @@
+/* line 4, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.about-image-container {
+  width: 49%;
+  margin: 0;
+  display: inline-block;
+}
+
+/* line 11, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.about-image {
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url("/assets/about-image-7a9c187ce2660b2fd725f593c270c1fe41f7ba63d0fa83e93d85e3b5aaa3de84.jpg") no-repeat center center;
+}
+
+/* line 20, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.about-text-container {
+  width: 46%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+/* line 27, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.background-description {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.6;
+  width: 90%;
+  color: #444;
+  margin-left: 40px;
+}
+
+/* line 37, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.background-description li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+/* line 42, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.background-description p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 47, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.background-description p a {
+  color: #2E94B9;
+  transition: all 0.3s;
+}
+
+/* line 52, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+.background-description p a:hover {
+  color: #444;
+}
+
+@media only screen and (max-width: 860px) {
+  /* line 57, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+  .about-image-container {
+    width: 100%;
+  }
+
+  /* line 61, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+  .about-text-container {
+    width: 100%;
+  }
+
+  /* line 65, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+  .background-description {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 860px) {
+  /* line 71, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+  .about-image {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  /* line 77, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/backgrounds.scss */
+  .background-description p {
+    font-size: 14px;
+  }
+}
+/* line 6, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 17, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.dimensions {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* line 27, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#medium {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+/* line 33, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.cv-icon {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* line 41, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.cv-icon:hover {
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* line 46, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-description li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+/* line 51, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-description p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 860px;
+}
+
+/* line 57, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-description p a {
+  color: #2E94B9;
+  transition: all 0.3s;
+}
+
+/* line 62, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-description p a:hover {
+  color: #444;
+}
+
+/* line 67, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#research-headings {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+/* line 76, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#research-headings-small:first-child {
+  margin-top: 10px;
+}
+
+/* line 80, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#research-headings-small {
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* line 90, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+.research-description {
+  font-family: 'Tahoma', serif;
+  text-align: left;
+  line-height: 1.6;
+  width: 64%;
+  margin-top: 40px;
+  color: #444;
+  margin-left: 240px;
+  font-size: 14px;
+}
+
+/* line 101, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#doc-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  display: inline;
+  margin-left: 14px;
+}
+
+/* line 108, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#doc-link {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+/* line 117, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+#outreach-description {
+  margin-left: 50px;
+  width: 600px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* line 124, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  .research-description {
+    width: 90%;
+    margin: 40px auto 0;
+  }
+
+  /* line 129, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  .research-description p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 134, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  #outreach-description {
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 142, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  .research-description p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  /* line 148, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  .research-description p {
+    font-size: 14px;
+  }
+
+  /* line 152, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/interests.scss */
+  #research-headings {
+    font-size: 1.2em;
+  }
+}
+/* line 4, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.portfolio-container {
+  width: 100%;
+  overflow: auto;
+  background-color: #efefef;
+}
+
+/* line 10, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-block {
+  width: 25%;
+  height: 0;
+  padding-bottom: 16%;
+  float: left;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 21, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-text {
+  display: none;
+  width: 80%;
+  height: 60%;
+  padding: 30px 0px 30px 50px;
+  color: #fff;
+  z-index: 20;
+  position: absolute;
+}
+
+/* line 31, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* line 39, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.index-divider {
+  margin-top: 12px;
+  width: 80px;
+  height: 3px;
+  background-color: #fff;
+}
+
+/* line 46, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.description-preview {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* line 54, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.arrow {
+  position: absolute;
+  right: 16px;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background: url("/assets/arrow-right-6f40eedc2f434a7618e9ebd113f79f80b02704bdddec0b19e3431a8e9eb0965e.png");
+}
+
+/* line 64, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.arrow:first-of-type {
+  right: -120px;
+}
+
+@media only screen and (min-width: 900px) {
+  /* line 70, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:after {
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    z-index: 10;
+  }
+
+  /* line 85, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:hover:after {
+    opacity: 1;
+  }
+
+  /* line 89, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block:hover .index-text {
+    display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 95, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .index-text {
+    display: none;
+  }
+
+  /* line 99, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block {
+    width: 33.3%;
+    height: 0;
+    padding-bottom: 22%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* line 107, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block {
+    width: 50%;
+    height: 0;
+    padding-bottom: 35%;
+  }
+}
+@media only screen and (max-width: 550px) and (max-width: 400px) {
+  /* line 114, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-block {
+    width: 100%;
+    height: 0;
+    padding-bottom: 70%;
+    margin-bottom: 8px;
+  }
+}
+/* -- show css -- */
+/* line 126, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show {
+  width: 100%;
+  height: 698px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 134, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show-title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+/* line 144, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #444;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* line 154, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.image-show-description {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.6;
+  width: 64%;
+  margin: 40px auto;
+  color: #444;
+}
+
+/* line 165, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+.dimensions {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  text-align: center;
+}
+
+/* line 174, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+#medium {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* line 181, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 187, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show-description {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 635px) {
+  /* line 194, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show {
+    height: 300px;
+  }
+
+  /* line 198, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show-description {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* line 204, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show {
+    height: 220px;
+  }
+
+  /* line 207, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .show-container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  /* line 211, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/portfolios.scss */
+  .image-show-description {
+    font-size: 15px;
+  }
+}
+/* #efefef; */
+/* line 6, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/resumes.scss */
+#cv-link {
+  border: 1px solid #444;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  transition: all 0.3s;
+}
+
+/* line 15, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/resumes.scss */
+#cv-link:hover {
+  color: #2E94B9;
+  border-color: #2E94B9;
+}
+/* -- Home Page --*/
+/* line 10, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.home-background {
+  background: url("/assets/home-background-ee02273ace443781df4ac130a99b3a36ee8b2c65400d680d5ccc6ceba1b352bb.jpg");
+  margin-bottom: -80px;
+  width: 100%;
+  height: 503px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1250px) {
+  /* line 21, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .home-background {
+    background: url("/assets/mobile-home-background-8632e111b9b0da0ca4f64031b509312b41a2d964322fb1c0cfce435ba4a49cf6.jpg") no-repeat center center;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 28, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .home-background {
+    background: url("/assets/mobile-home-background-700-93b71c03e055c61c37d3ab52b1ed139a6b075da4828abb41d46e19bc8838f045.jpg") no-repeat center center;
+    height: 332px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 35, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .home-background {
+    background: url("/assets/mobile-home-background-500-85c68260fb58e9e71f4c6154c70c630f49f65b709f4a3796251c611b532ef589.jpg") no-repeat center center;
+    height: 332px;
+    margin-bottom: -150px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 43, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .home-background {
+    background: url("/assets/mobile-home-background-400-25fa4d544e81adc1cb93efd3bff8f2cac86be26414a558c63e8a2f243fbb9668.jpg") no-repeat center center;
+  }
+}
+/* -- About Page --*/
+/* line 49, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-container {
+  width: 100%;
+}
+
+/* line 53, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-background {
+  width: 100%;
+  height: 884px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: url("/assets/about-background-699248d8845836557c9835604086e781c5f346613c2e720b4d38a29767b1705b.jpg") no-repeat center center;
+}
+
+/* line 62, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-credit {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #68696e;
+  margin-top: 6px;
+  float: right;
+  margin-right: 120px;
+  font-size: 12px;
+}
+
+/* line 73, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.8;
+  width: 62%;
+  margin: 40px auto;
+  color: #444;
+}
+
+/* line 84, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-text p a {
+  color: #2E94B9;
+  transition: all 0.3s;
+}
+
+/* line 89, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+.about-text p a:hover {
+  color: #444;
+}
+
+@media only screen and (max-width: 750px) {
+  /* line 94, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .about-text {
+    width: 92%;
+  }
+
+  /* line 98, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .about-background {
+    background-position: right center;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* line 105, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .about-background {
+    height: 420px;
+    background-position: 82% 34%;
+  }
+}
+@media only screen and (max-width: 420px) {
+  /* line 112, /Users/thomasbonan/Documents/Projects/html/dave-site/app/assets/stylesheets/static_pages.scss */
+  .about-text {
+    font-size: 16px;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+div{
+   margin: 0px;
+   padding: 0px;
+}
+
+table{
+   margin: 0px;
+   padding: 0px;
+}
+h1, h2, h3, h4, h5, p, ul, a {
+   margin: 0px;
+   padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* -- header css -- */
+
+.header-container {
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.home-text {
+	width: 280px;
+	float: left;
+}
+
+#home-text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #444;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 80px;
+	letter-spacing: 1px;
+}
+
+#home-text a {
+	transition: color 0.3s;
+}
+
+#home-text a:hover {
+	color: #2E94B9;
+}
+
+.header-nav {
+	float: right;
+	margin-right: 60px;
+	height: 80px;
+}
+
+.header-nav p{
+	line-height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+	float: left;
+}
+
+#nav-links {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#icons, #footer-icon {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: -2px;
+}
+
+.header-nav p a {
+transition: color 0.3s;
+}
+
+.header-nav p a:hover {
+	color: #267b9a;
+}
+
+.header-nav h5{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.icon {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	text-indent: 105%;
+	white-space: nowrap;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	transition: all 0.3s;
+}
+
+.icon:hover {
+	opacity: 0.6;
+}
+
+.active-nav{
+	color: #267b9a;
+	border-bottom: 1px dotted #267b9a;
+}
+
+.dropdown-menu {
+	display: none;
+	float: right;
+	cursor: pointer;
+}
+
+.dropdown-icon {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	text-indent: 105%;
+	white-space: nowrap;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.dropdown-menu p {
+	float: left;
+	margin-right: 3px;
+	margin-left: 3px;
+	line-height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+}
+
+.side-menu {
+	width: 240px;
+	top: 80px;
+	right: 0;
+	position: absolute;
+	height: 260px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+	display: none;
+	z-index: 40;
+}
+
+.side-menu ul {
+	float: right;
+	margin-top: 0px;
+	text-align: left;
+	list-style-type: none;
+	margin-right: 40px;
+}
+
+.side-menu ul li {
+	padding-top: 20px;
+	padding-bottom: 16px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+}
+
+#sub-link {
+	font-size: 12px;
+	padding-top: 6px;
+	padding-bottom: 12px;
+	margin-left: 20px;
+}
+
+.show {
+	display: block;
+}
+
+.artheader-container {
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+.artheader-descriptions {
+	margin: 0 auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.artheader-descriptions p {
+	text-align: center;
+	font-weight: 500;
+}
+
+.artheader-nav {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.artheader-nav p {
+	font-weight: 300;
+}
+
+
+.artheader-nav p, .artheader-descriptions p {
+	display: inline-block;
+	line-height: 40px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #444;
+	float: left;
+}
+
+
+@media only screen and (max-width: 1007px)  {
+	#icons {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 860px)  {
+	#nav-links {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 800px)  {
+	#nav-links {
+		display: none;
+	}
+
+	.dropdown-menu {
+		display: block;
+	}
+
+}
+
+@media only screen and (max-width: 470px)  {
+	.header-nav {
+		margin-right: 20px;
+	}
+
+	.home-text {
+		width: 180px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	.side-menu ul {
+		margin-right: 20px;
+	}
+
+	.side-menu {
+		width: 190px;
+	}
+}
+
+
+
+
+/* -- footer css -- */
+.footer-container {
+	width: 100%;
+	height: 200px;
+	margin-top: 120px;
+}
+
+.footer-divider {
+	height: 1px;
+	background-color: #D8D8D8;
+	width: 660px;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 660px)  {
+	.footer-divider {
+		width: 100%;
+	}
+}
+
+.footer-text {
+	text-align: center;
+	margin-top: -5px;
+}
+
+.footer-list {
+	color: #737373;
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -16px;
+	letter-spacing: 1px;
+}
+
+.footer-social {
+	margin: 18px auto;
+	width: 24px;
+}
+
+#footer-icon {
+	margin: 0 auto;
+}
+
+.copyright {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #68696e;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.copyright a {
+	color: #2E94B9;
+	transition: all 0.3s;
+}
+
+.copyright a:hover {
+	color: #68696e;
+}
+
+
+/* -- form css -- */
+.blog-form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.blog-form-container p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.blog-form-container label {
+    display:inline-block;
+    float:left;
+}
+
+.blog-form-container input {
+    height:30px;
+    width:400px;
+    font-size: 1em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.blog-form-container textarea {width:700px; height: 240px;}
+.blog-form-container button {margin-left:156px;}
+
+.blog-form-container input:focus, .blog-form-container textarea:focus {
+    outline: none;
+}
+
+.delete-image p {
+	width: 120px;
+	height: 30px;
+	border: 1px solid #444;
+	background-color: #444;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+  	font-weight: 400;
+  	transition: all 0.3s;
+  	float: right;
+  	margin-right: 380px;
+  	margin-top: -45px;
+}
+
+.delete-image p:hover {
+	background-color: #fff;
+	color: #444;
+}
+
+#validation-error-message {
+  width: 40%;
+  text-align: center;
+  font-size: 1.4em;
+  margin: 0 auto;
+  color: #D8000C;
+  background-color: #FFBABA;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  border: 1px solid;
+  padding: 15px 20px 15px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
